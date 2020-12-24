@@ -7,3 +7,14 @@ function digital_root(n) {
       return Number(arr.toString())
 }
 
+
+
+// Test Cases
+
+digital_root(16) // Expected Result 7
+digital_root(195) // Expected Result 6
+digital_root(992) // Expected Result 2
+digital_root(999999999999) // Expected Result 9
+digital_root(167346) // Expected Result 9
+digital_root(10) // Expected Result 1
+digital_root(0) // Expected Result 0
